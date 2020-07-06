@@ -1,6 +1,6 @@
 # Lab: React III - Next.js
 
-[Click here to see the deployed site]()
+[Click here to see the deployed site](https://chen-comics.herokuapp.com)
 
 ## Overview
 
