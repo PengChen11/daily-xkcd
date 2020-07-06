@@ -1,10 +1,12 @@
 const Comic = (props) => (
-    <div>
-        <h3>{props.data.title}</h3>
-        <a href={props.data.img}>
-            <img src={props.data.img} />
-        </a>
+    <>
+    <div className='row'>
+        <h3 className='mx-auto col-auto'>{props.data.title}</h3>
     </div>
+    <div className='row'>
+        <img className='mx-auto col-auto' src={props.data.img} alt={props.data.alt} />
+    </div>
+    </>
 )
 
 export default Comic;

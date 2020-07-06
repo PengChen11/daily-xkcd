@@ -4,19 +4,20 @@ import Previous from '../components/Previous';
 
 const Home = (props) => (
     <Layout>
-        <div className='mian_body'>
-            <h1>Welcome to Peng's XKCD comics</h1>
+        <div className='container'>
+            <div className='row'>
+                <h1 className='mx-auto col-lg-auto'>Welcome to Peng's XKCD comics</h1>
+            </div>
             <Comic data={props.data}/>
-            <Previous data={props.data}/>
+            <Previous data={props.data.num}/>
 
         </div>
     </Layout>
 )
 
-export async function getStaticProps() {
+export async function getServerSideProps (context){
 
     const url = 'http://xkcd.com/info.0.json';
-    // const url = 'http://localhost:3001/api/comics';
     const response = await fetch(url);
     const data = await response.json();
 
