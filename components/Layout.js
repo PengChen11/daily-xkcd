@@ -6,7 +6,7 @@ const Layout = (props) => (
     <div>
         <Head>
             <title>Peng's comics</title>
-            <link rel="Stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"/>
+            {/* <link rel="Stylesheet" href="https://bootswatch.com/4/cerulean/bootstrap.min.css"/> */}
         </Head>
         <Navbar />
         <div className="container">

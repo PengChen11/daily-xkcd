@@ -1,0 +1,40 @@
+.navbar {
+
+    font-size: 50px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+    li {
+        list-style-type: none;
+        display: inline-block;
+        margin-left: 30px;
+
+    }
+
+    a {
+        text-decoration: none;
+        color: gray;
+
+    }
+
+}
+
+.brand {
+
+    display: inline-block;
+    margin-left: 2em;
+
+    a {
+        margin-right: 50px;
+    }
+}
+
+.uls {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 2em;
+    font-size: 30px;
+}
+
+

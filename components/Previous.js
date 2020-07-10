@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import styles from './Previous.module.scss'
 
 class Previous extends React.Component{
 
@@ -23,7 +24,8 @@ class Previous extends React.Component{
             <div className='row m-3'>
                 <h3 className="mx-auto col-auto">Previous 10 comics</h3>
             </div>
-            <div className="row">
+            {/* <div className="row"> */}
+            <div className={styles.previous}>
                 <ul className="mx-auto col-auto">
                     {lists.map(num => this.listItem(num))}
                 </ul>

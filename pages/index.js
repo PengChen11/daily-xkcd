@@ -2,6 +2,7 @@ import Layout from '../components/Layout';
 import Comic from '../components/Comic';
 import Previous from '../components/Previous';
 
+
 const Home = (props) => (
     <Layout>
         <div className='container'>
